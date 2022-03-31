@@ -94,6 +94,3 @@ FROM bitnami/apache-exporter:0.11.0-debian-10-r72
 
 # Tags: 0.11.0-debian-10-r71
 FROM bitnami/apache-exporter:0.11.0-debian-10-r71
-
-# Tags: 0.11.0-debian-10-r70
-FROM bitnami/apache-exporter:0.11.0-debian-10-r70
