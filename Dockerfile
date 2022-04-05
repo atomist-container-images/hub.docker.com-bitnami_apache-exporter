@@ -1,12 +1,24 @@
-# Tags: latest, 0.11.0-debian-10-r101, 0.11.0, 0-debian-10, 0
+# Tags: latest, 0.11.0-debian-10-r106, 0.11.0, 0-debian-10, 0
 FROM bitnami/apache-exporter:latest
-FROM bitnami/apache-exporter:0.11.0-debian-10-r101
+FROM bitnami/apache-exporter:0.11.0-debian-10-r106
 FROM bitnami/apache-exporter:0.11.0
 FROM bitnami/apache-exporter:0-debian-10
 FROM bitnami/apache-exporter:0
 
 # Tags: _
 FROM bitnami/apache-exporter:_
+
+# Tags: 0.11.0-debian-10-r105
+FROM bitnami/apache-exporter:0.11.0-debian-10-r105
+
+# Tags: 0.11.0-debian-10-r104
+FROM bitnami/apache-exporter:0.11.0-debian-10-r104
+
+# Tags: 0.11.0-debian-10-r103
+FROM bitnami/apache-exporter:0.11.0-debian-10-r103
+
+# Tags: 0.11.0-debian-10-r101
+FROM bitnami/apache-exporter:0.11.0-debian-10-r101
 
 # Tags: 0.11.0-debian-10-r100
 FROM bitnami/apache-exporter:0.11.0-debian-10-r100
@@ -79,18 +91,3 @@ FROM bitnami/apache-exporter:0.11.0-debian-10-r77
 
 # Tags: 0.11.0-debian-10-r76
 FROM bitnami/apache-exporter:0.11.0-debian-10-r76
-
-# Tags: 0.11.0-debian-10-r75
-FROM bitnami/apache-exporter:0.11.0-debian-10-r75
-
-# Tags: 0.11.0-debian-10-r74
-FROM bitnami/apache-exporter:0.11.0-debian-10-r74
-
-# Tags: 0.11.0-debian-10-r73
-FROM bitnami/apache-exporter:0.11.0-debian-10-r73
-
-# Tags: 0.11.0-debian-10-r72
-FROM bitnami/apache-exporter:0.11.0-debian-10-r72
-
-# Tags: 0.11.0-debian-10-r71
-FROM bitnami/apache-exporter:0.11.0-debian-10-r71
